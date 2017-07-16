@@ -54,6 +54,7 @@
     <PackageReference Include="Xamarin.Forms" Version="2.3.5.256-pre6" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicTabbedPageRenderer.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +78,14 @@
       <Project>{813F582A-A2EC-4C1C-8A32-50AB8D4EF0BD}</Project>
       <Name>XamarinFormsTabsDemo</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\first.png" />
+    <AndroidResource Include="Resources\drawable\first_selected.png" />
+    <AndroidResource Include="Resources\drawable\second.png" />
+    <AndroidResource Include="Resources\drawable\second_selected.png" />
+    <AndroidResource Include="Resources\drawable\third.png" />
+    <AndroidResource Include="Resources\drawable\third_selected.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

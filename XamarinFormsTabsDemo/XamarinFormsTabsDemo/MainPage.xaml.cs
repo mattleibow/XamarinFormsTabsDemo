@@ -1,8 +1,6 @@
-﻿using Xamarin.Forms;
-
-namespace XamarinFormsTabsDemo
+﻿namespace XamarinFormsTabsDemo
 {
-	public partial class MainPage : TabbedPage
+	public partial class MainPage : DynamicTabbedPage
 	{
 		public MainPage()
 		{
